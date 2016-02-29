@@ -296,7 +296,7 @@ document.write('Hello World!');
                 <p>Variables can be strings, groups of characters. You put your string in quotes.</p>
                 <pre><code>
 &lt;script&gt;
-    var kittensName = 'Fluffy';
+    var bookName = 'Harry Potter and the Chamber of Secrets';
 &lt;/script&gt;
 				</code></pre>
                 <p>If you want to use a quote in your string, you'll need to "escape" it with a backslash.</p>
@@ -312,9 +312,10 @@ document.write('Hello World!');
                 <p>You can put strings together with a +, the concatenation operator.</p>
                 <pre><code>
 &lt;script&gt;
-    var kittensName = 'Fluffy ';
-    var fullName = kittensName + ' McDougle';
-    console.log(fullName); //Outputs 'Fluffy McDougle'
+    var bookName = 'Harry Potter and the Chamber of Secrets';
+    var authorName = 'J. K. Rowling';
+    var titleAndAuthor =  bookName + ' by ' + authorName;
+    console.log(titleAndAuthor); //Outputs 'Harry Potter and the Chamber of Secrets by J. K. Rowling'
 &lt;/script&gt;
 				</code></pre>
             </section>
@@ -323,9 +324,9 @@ document.write('Hello World!');
                 <p>You can also use += to add things to the end of a string.</p>
                 <pre><code>
 &lt;script&gt;
-    var kittensName = 'Admiral ';
-    kittensName += ' Snuggles';
-    console.log(kittensName); //Outputs 'Admiral Snuggles'
+    var firstName = 'Ada';
+    fullName += ' Lovelace';
+    console.log(fullName); //Outputs 'Ada Lovelace'
 &lt;/script&gt;
 				</code></pre>
             </section>
