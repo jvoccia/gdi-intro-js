@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Class 1 ~ JavaScript for Beginners ~ Girl Develop It</title>
+		<title>Class 1 ~ JavaScript for Beginners</title>
 
 		<meta name="description" content="This is an introduction to JavaScript curriculum, developed by Sylvia Richardson for the Raleigh/Durham chapter.
 
@@ -38,7 +38,6 @@
 		<div class="slides">
         <!-- Opening slide -->
             <section>
-                <img src="images/gdi_logo_badge.png" alt="GDI logo">
                 <h3>JavaScript for Beginners</h3>
                 <h4>Class 1</h4>
             </section>
@@ -47,7 +46,9 @@
             <section>
               <h3>Welcome!</h3>
               <div class = "left-align">
-              <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+              <p>
+              I am Jason, we are here to learn about programming using JavaScript.  These slides are from a program called Girl Develop It!  I 
+              changed some of these slides to better fit with what I want to do.</p>
               <p class ="green">Some "rules"</p>
               <ul>
                 <li>We are here for you!</li>
@@ -65,7 +66,7 @@
               <ul>
                 <li>Who are you?</li>
                 <li>What do you hope to get out of the class?</li>
-                <li>What is your favorite children's book?</li>
+                <li>What is something that would surpise people that do not know you?</li>
               </ul>
               </div>
             </section>
@@ -74,9 +75,8 @@
                 <h3>What is JavaScript?</h3>
                 <ul>
                     <li>JavaScript is standardized by the "ECMAScript" specifications.</li>
-                    <li>JavaScript is a client-side processing language. A browser reads the code and runs it directly.</li>
-                    <li>JavaScript interfaces with HTML and CSS.</li>
-                    <li>With JavaScript, you can write code once and use it everywhere. Remember, you want DRY code (Don't Repeat Yourself).</li>
+                    <li>JavaScript is a client-side programming language. The browser runs it directly.</li>
+                    <li>JavaScript works with HTML and CSS.</li>
                     <li>JavaScript lets you build dynamic webpages that respond to input from users.</li>
                 </ul>
             </section>
@@ -87,7 +87,7 @@
             </section>
             <section>
                 <h3>Let's Develop It</h3>
-                <p>Let's write your first JavaScript program. Make a folder called gdi. Inside, make a new page called index.html. Place this code inside.</p>
+                <p>Let's write your first JavaScript program. Make a folder called class1. Inside, make a new page called index.html. Place this code inside.</p>
                 <pre><code>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -115,7 +115,7 @@
             </section>
             <section>
                 <h3>JavaScript Files</h3>
-                <p>Just like CSS, you can split a long block of JavaScript into its own file. </p>
+                <p>You can split a long block of JavaScript into its own file. </p>
                 <pre><code>
 &lt;script src="path/to/file.js"&gt;&lt;/script&gt;
 				</code></pre>
@@ -126,8 +126,7 @@
                 <pre><code>
 &lt;script&gt;
     console.log('Hello World!');
-    console.log('I am glad to meet you');
-    console.log('I am fuzzy');
+    console.log('I am a computer');
 &lt;/script&gt;
 				</code></pre>
             </section>
@@ -200,7 +199,7 @@ document.write('Hello World!');
                 <p>It is a good idea to give your variable a starting value. This is called initializing the variable.</p>
                 <pre><code>
 &lt;script&gt;
-    var numberOfKittens = 5;
+    var numberOfBooks = 5;
 &lt;/script&gt;
 				</code></pre>
 			</section>
@@ -209,8 +208,8 @@ document.write('Hello World!');
                 <p>Once you have created a variable, you can use it in your code. Just type the name of the variable.</p>
                 <pre><code>
 &lt;script&gt;
-    var numberOfKittens = 5;
-    console.log (numberOfKittens);
+    var numberOfBooks = 5;
+    console.log (numberOfBooks);
 &lt;/script&gt;
 				</code></pre>
 			</section>
@@ -225,11 +224,11 @@ document.write('Hello World!');
                 <p>Variables can be numbers, either integers or floats (decimals).</p>
                 <pre><code>
 &lt;script&gt;
-    var numberOfKittens = 5;
-    var cutenessRating = 9.6;
+    var numberOfBooks = 5;
+    var topTenRating = 9.6;
 &lt;/script&gt;
 				</code></pre>
-                <p>The browser will automatically convert integers to floats if needed</p>
+                <p>The browser will automatically convert integers to floats (numbers with decimals) if needed</p>
 			</section>
 
             <section>
@@ -237,9 +236,9 @@ document.write('Hello World!');
                 <p>Once you have numbers, you can do math with them!</p>
                 <pre><code>
 &lt;script&gt;
-    var numberOfKittens = 5;
-    var numberOfPuppies = 4;
-    var numberOfAnimals = numberOfKittens + numberOfPuppies;
+    var numberOfBooks = 5;
+    var numberOfMagazines = 4;
+    var totalReadingMaterials = numberOfBooks + numberOfMagazines;
 &lt;/script&gt;
 				</code></pre>
 			</section>
