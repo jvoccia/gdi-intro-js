@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Class 2 ~ JavaScript for Beginners ~ Girl Develop It</title>
+		<title>Class 2 ~ JavaScript for Beginners</title>
 
 		<meta name="description" content="This is an introduction to JavaScript curriculum, developed by Sylvia Richardson for the Raleigh/Durham chapter.
 
@@ -38,7 +38,6 @@
 		<div class="slides">
         <!-- Opening slide -->
             <section>
-                <img src="images/gdi_logo_badge.png" alt="GDI logo">
                 <h3>JavaScript for Beginners</h3>
                 <h4>Class 2</h4>
             </section>
@@ -69,7 +68,7 @@ console.log(receipt);
                 <h3>Global Scope</h3>
                 <p>A variable declared outside a function has a <span class="yellow">global</span> scope and can be accessed anywhere, even in a function.</p>
                   <pre><code>
-var awesomeGroup = 'Girl Develop It'; //Global scope
+var awesomeGroup = 'Teen Maker Lab'; //Global scope
 function whatIsAwesome() {
     console.log (awesomeGroup + ' is pretty awesome.'); //Will work
 }
@@ -82,7 +81,7 @@ whatIsAwesome();
                 <p>A variable declared within a function has a <span class="yellow">local</span> scope and can only be accessed within that function.</p>
                 <pre><code>
 function whatIsAwesome() {
-    var awesomeGroup = 'Girl Develop It'; //Local scope
+    var awesomeGroup = 'Teen Maker Lab'; //Local scope
     console.log ('I made a variable called awesomeGroup with a value of ' + awesomeGroup); //Will work
 }
 <!--on the slide, line 84 has a purple { and it's closing bracket } on line 87 is white. do they need to be the same color?-->
@@ -271,11 +270,13 @@ if (bananas &gt;=2 &amp;&amp; bananas &lt;7) {
                 <h3>While loops</h3>
                 <p>While will repeat the same code over and over until some condition is met.</p>
                 <pre><code>
-var bottlesOfBeer = 99;
-while (bottlesOfBeer &gt;= 1) {
-    console.log (bottlesOfBeer + ' bottles of beer on the wall');
-    bottlesOfBeer = bottlesOfBeer - 9;
+var cookies = 10;
+while (cookies &gt;= 1) {
+    console.log (cookies + ' left.');
+    cookies = cookies - 3;
+    console.log ('Let me eat three cookies!');
 }
+console.log ('I am done eating. ' + cookies + ' left.');
 				</code></pre>
             </section>
             <section>
